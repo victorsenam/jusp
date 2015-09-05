@@ -1,4 +1,7 @@
-# OSX ignored files
+## VIM
+**/*.swp
+
+## OSX ignored files
 # Folder view configuration files
 .DS_Store
 Desktop.ini
