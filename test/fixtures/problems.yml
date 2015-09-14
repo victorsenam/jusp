@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  enunciation: MyText
+  test_case: MyText
+  difficulty: 1
+
+two:
+  name: MyString
+  enunciation: MyText
+  test_case: MyText
+  difficulty: 1

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @problem.name %>
+</p>
+
+<p>
+  <strong>Enunciation:</strong>
+  <%= @problem.enunciation %>
+</p>
+
+<p>
+  <strong>Test case:</strong>
+  <%= @problem.test_case %>
+</p>
+
+<p>
+  <strong>Difficulty:</strong>
+  <%= @problem.difficulty %>
+</p>
+
+<%= link_to 'Edit', edit_problem_path(@problem) %> |
+<%= link_to 'Back', problems_path %>
